@@ -30,3 +30,4 @@ npm-debug.log*
 # Optional Yarn error logs
 yarn-debug.log*
 yarn-error.log*
+node_modules/
