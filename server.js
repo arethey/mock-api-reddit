@@ -25,12 +25,12 @@ async function getComments() {
 
 app.get('/reddit/search/submission', async (req, res) => {
     let submissions = await getSubmissions();
-    res.json({ data: submissions, metadata: { total: submissions.length }, error: null });
+    res.json({ data: submissions, metadata: { op_a: 0, op_b: 0, total: 0 }, error: null });
 });
 
 app.get('/reddit/search/comment', async (req, res) => {
     let comments = await getComments();
-    res.json({ data: comments, metadata: { total: comments.length }, error: null });
+    res.json({ data: comments, metadata: { op_a: 0, op_b: 0, total: 0 }, error: null });
 });
 
 app.listen(PORT, () => {
