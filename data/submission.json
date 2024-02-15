@@ -1,0 +1,20 @@
+[
+    {
+        "id": "abc123",
+        "title": "Announcing Reddit Mobile",
+        "author": "spez",
+        "url": "https://reddit.com/r/announcements/comments/abc123",
+        "created_utc": 1492569573,
+        "score": 12345,
+        "subreddit": "announcements"
+    },
+    {
+        "id": "xyz789",
+        "title": "Reddit’s New Content Policy",
+        "author": "spez",
+        "url": "https://reddit.com/r/announcements/comments/xyz789",
+        "created_utc": 1592569573,
+        "score": 67890,
+        "subreddit": "announcements"
+    }
+]
