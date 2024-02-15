@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+npm-debug.log
+yarn-error.log
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional editor directory
+.idea
+
+# Optional vscode directory
+.vscode
+
+# Optional npm debug log
+npm-debug.log*
+
+# Optional Yarn error logs
+yarn-debug.log*
+yarn-error.log*
